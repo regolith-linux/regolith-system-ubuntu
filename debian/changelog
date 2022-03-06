@@ -1,0 +1,5 @@
+regolith-system-ubuntu (1.0) focal; urgency=medium
+
+  * Forked for Regolith 2 from regolith-system
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 05 Mar 2022 19:28:22 -0800
