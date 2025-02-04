@@ -1,3 +1,18 @@
+regolith-system-ubuntu (1.0.1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add build automation
+
+  [ Khosrow Moossavi ]
+  * chore: remove obsolete package broadcast action
+  * feat: enable github action to test pull requests
+  * feat: enable github action to publish to unstable
+  * feat: enable github action to publish to testing
+  * feat: enable github action to prepare release
+  * fix: create release tag from correct git sha
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 04 Feb 2025 03:43:40 +0000
+
 regolith-system-ubuntu (1.0) focal; urgency=medium
 
   * Forked for Regolith 2 from regolith-system
