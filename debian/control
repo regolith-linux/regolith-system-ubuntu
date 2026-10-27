@@ -18,7 +18,7 @@ Depends: ${misc:Depends},
     lightdm | x-display-manager,
     xinit
 Recommends: regolith-lightdm-config,
-    plymouth-theme-regolith,
+    plymouth-theme-regolith-logo,
     libavahi-ui-gtk3-0
 Conflicts: indicator-application
 Multi-Arch: foreign
