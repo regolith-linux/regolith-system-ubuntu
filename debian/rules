@@ -1,5 +1,15 @@
 #!/usr/bin/make -f
 
+include /usr/share/dpkg/architecture.mk
+
 %:
 	dh $@
 
+# The Raspberry Pi Xorg config only matches the vc4 display driver, which only
+# exists on Raspberry Pi hardware, so only ship it in the arm64 package.
+override_dh_install:
+ifeq ($(DEB_HOST_ARCH),arm64)
+	dh_install usr/share/X11/xorg.conf.d/99-regolith-vc4.conf usr/share/X11/xorg.conf.d/
+else
+	dh_install
+endif
