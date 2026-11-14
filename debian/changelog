@@ -1,3 +1,15 @@
+regolith-system-ubuntu (1.1.0-1) focal; urgency=medium
+
+  [ rego-port-bot ]
+  * fix(debian): recommend plymouth-theme-regolith-logo, the theme's real name
+
+  [ Joseph Moon ]
+  * feat: make lightdm work on Raspberry Pi out of the box
+  * Only ship the Raspberry Pi Xorg config in the arm64 package
+  * Rename the OutputClass identifier to "vc4"
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 14 Nov 2026 10:47:09 -0800
+
 regolith-system-ubuntu (1.0.1-1) focal; urgency=medium
 
   [ Khosrow Moossavi ]
